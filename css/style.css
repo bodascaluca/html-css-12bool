@@ -1,7 +1,12 @@
-.container{
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* .container{
     height:300px;
     background-color: aqua;
-}
+} */
 
 .row{ 
     background-color: pink;
