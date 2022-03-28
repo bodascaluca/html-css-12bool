@@ -1,0 +1,21 @@
+/* RESET  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-direction:row;  /* Dobbiamo specificare non si lascia ninte al caso */
+    flex-wrap: wrap;
+}
+
+.col-1{
+    flex-basis: calc(100% / 12) * 1;
+}
